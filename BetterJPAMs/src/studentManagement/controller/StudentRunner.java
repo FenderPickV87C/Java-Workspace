@@ -6,7 +6,7 @@ public class StudentRunner
 {
 	public static void main(String[] args)
 	{
-		Student myStudent = new Student();
+		Student myStudent = new Student(true, Jacob Wynn,     );
 		System.out.println(myStudent);
 	}
 }
