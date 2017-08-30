@@ -5,12 +5,12 @@ public class Student
 	private boolean isCurrentStudent;
 	private int gradeLevel;
 	private int idNumber;
-	private String name;
+	private String name; 
 	private String gender;
 	private int age;
 	private double gpa; 
-	
 	public Student()
+	
 	{
 		isCurrentStudent = false;
 		gradeLevel = 0;
@@ -45,8 +45,8 @@ public class Student
 		String str = "This person is not a current student.";
 		if(isCurrentStudent)
 		{	
-		str = "Name: " + name + "Age: " + age + " " + "Gender: " + gender + "Grade Level: " + gradeLevel
-				+ " " + "ID Number: " + idNumber + " " + "GPA: " + gpa;
+		str = "Name:" + name + " " + "Age:" + age + " " + "Gender:" + gender + " " + "Grade Level:" + gradeLevel
+				+ " " + "ID Number:" + idNumber + " " + "GPA:" + gpa;
 		}
 		return str;
 	}
