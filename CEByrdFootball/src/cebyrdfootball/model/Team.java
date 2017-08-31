@@ -9,7 +9,7 @@ public class Team
 	
 	public Team()
 	{
-		teamName = " ";
+		teamName = "";
 		avgPPG = 0.0;
 		numberOfPlayers = 0;
 		winningRecord = false;
@@ -28,7 +28,15 @@ public class Team
 		String str = "This team doesn't exist.";
 		if (teamName != "")
 		{
-			str = teamName + "has" + numberOfPlayers + "and is scoring" + avgPPG;
+			str = teamName + " has " + numberOfPlayers + " players and is scoring " + avgPPG;
+			if (winningRecord)
+			{
+				str = str + " They are winning.";
+			}
+			else
+			{
+				str = str + " They are losing.";
+			}
 		}
 		return str;
 	}
