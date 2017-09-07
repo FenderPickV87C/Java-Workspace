@@ -6,9 +6,10 @@ public class Runner
 	{
 		StringCommands myProgram = new StringCommands();
 		
-		
-		
 		System.out.println(myProgram.orToOur("color"));
+		
+		WordReverser myReverser = new WordReverser();
+		System.out.println(myReverser.reverse("Race Car"));
 		
 	}
 }
