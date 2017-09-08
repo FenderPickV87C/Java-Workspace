@@ -9,7 +9,7 @@ public class Runner
 		System.out.println(myProgram.orToOur("color"));
 		
 		WordReverser myReverser = new WordReverser();
-		System.out.println(myReverser.reverse("Race Car"));
+		System.out.println(myReverser.reverse("Racecar"));
 		
 	}
 }
