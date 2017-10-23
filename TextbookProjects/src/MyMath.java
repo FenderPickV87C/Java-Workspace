@@ -2,6 +2,19 @@ import java.util.Scanner;
 
 public class MyMath
 {
+	public static String perfectNumbers(int n)
+	{
+		String result = "The first " + n + " perfect numbers are: ";
+		
+		return result;
+	}
+	
+	public static boolean isPerfect(int n)
+	{
+		boolean result = false;
+		
+		return result;
+	}
   /**
    * Returns the sum of all integers from 1 to n, if n >= 1,
    * and 0 otherwise.
