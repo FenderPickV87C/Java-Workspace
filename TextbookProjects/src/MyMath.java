@@ -12,6 +12,15 @@ public class MyMath
 	public static boolean isPerfect(int n)
 	{
 		boolean result = false;
+		int sum = 0;
+		for (int k = 1; k < n: k++)
+		{
+			if (n % k == 0)
+			{
+				sum += k;
+			}
+		 
+		}
 		
 		return result;
 	}
