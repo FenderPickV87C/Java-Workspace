@@ -2,9 +2,22 @@ import java.util.Scanner;
 
 public class MyMath
 {
-	public static String perfectNumbers(int n)
+	public static String perfectNumbers(int m)
 	{
-		String result = "The first " + n + " perfect numbers are: ";
+		String result = "The first " + m + " perfect numbers are: ";
+		int count = 0;
+		int n = 1;
+		
+		while(count < m)
+		{
+			if (isPerfect(n))
+			{
+				count ++;
+				result = result + n + " ";
+			}
+		
+			n++;
+		}
 		
 		return result;
 	}
@@ -13,13 +26,16 @@ public class MyMath
 	{
 		boolean result = false;
 		int sum = 0;
-		for (int k = 1; k < n: k++)
+		for (int k = 1; k < n; k++)
 		{
 			if (n % k == 0)
 			{
 				sum += k;
 			}
-		 
+		}
+		if (sum == n)	
+		{
+			result = true;
 		}
 		
 		return result;
