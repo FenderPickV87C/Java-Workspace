@@ -2,6 +2,25 @@ import java.util.Scanner;
 
 public class MyMath
 {
+	
+	public static String betterPerfect(int m)
+	{
+		String result = "The first " + m + " perfect numbers are: ";
+		
+		int n = 2;
+		int pow2 = 2;
+		int count = 0;
+		
+		while (count < m)
+		{
+			if (isPrime(n-1))
+			{
+				
+			}
+		}
+		
+		return result;
+	}
 	public static String perfectNumbers(int m)
 	{
 		String result = "The first " + m + " perfect numbers are: ";
